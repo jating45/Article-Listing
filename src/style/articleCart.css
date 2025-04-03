@@ -1,0 +1,23 @@
+.card {
+    max-width: 400px;
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .badge {
+    font-size: 0.75rem;
+    border-radius: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .read-more {
+    font-size: 1rem;
+  }
+  

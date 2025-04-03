@@ -1,0 +1,107 @@
+/* src/style/articleListingPage.css */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .article-card {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .article-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .cta-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .subscribe-cta, .editorial-cta {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subscribe-cta h3, .editorial-cta h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe-cta button, .editorial-cta button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .subscribe-cta button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .subscribe-cta button:hover {
+    background-color: #0056b3;
+  }
+  
+  .editorial-cta button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .editorial-cta button:hover {
+    background-color: #1e7e34;
+  }
+  
+  .btn-primary {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .subscribe-cta, .editorial-cta {
+      padding: 15px;
+    }
+  }
+  
